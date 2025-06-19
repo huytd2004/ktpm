@@ -495,6 +495,7 @@ const Apartment = () => {
               </Typography>
 
               <Autocomplete
+               sx={{ width:"220px" }} 
                 options={residents}
                 getOptionLabel={(option) => option.name}
                 value={
