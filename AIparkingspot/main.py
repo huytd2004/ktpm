@@ -6,9 +6,9 @@ import time
 from api_utils import send_api  # Hàm gửi API bạn định nghĩa sẵn
 
 # Video feed
-cap = cv2.VideoCapture('D:/hoc tap/Workspace/Project-IT4082/src/AIparkingspot/carPark.mp4')
+cap = cv2.VideoCapture('D:/hoc tap/Workspace/ktpm/AIparkingspot/carPark.mp4')
 
-with open('D:/hoc tap/Workspace/Project-IT4082/src/AIparkingspot/CarParkPos', 'rb') as f:
+with open('D:/hoc tap/Workspace/ktpm/AIparkingspot/CarParkPos', 'rb') as f:
     posList = pickle.load(f)
 
 width, height = 107, 48
